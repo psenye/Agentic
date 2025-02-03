@@ -1,0 +1,61 @@
+{
+    "1. 投资者基本信息": {
+        "age": 46,
+        "occupation_or_income_source": "公务员",
+        "annual_income_range": "50万-100万",
+        "liquidity_need": "低（无紧急用款需求）",
+        "investment_horizon": "1-3年",
+        "risk_preference": "保守型"
+    },
+    "2. 市场情绪及预期": {
+        "economic_outlook_6_12_months": "中性",
+        "economic_outlook_reason": "经济增速平稳，但外部因素可能带来一定不确定性。",
+        "interest_rate_expectation": "小幅下降",
+        "interest_rate_reason": "政策宽松迹象较为明显，经济刺激可能延续。",
+        "inflation_expectation": "持平",
+        "inflation_reason": "供应链逐步恢复，物价水平趋于稳定。",
+        "asset_class_expectations": {
+            "stocks": "小幅上涨（0%~10%）",
+            "bonds": "小幅上涨（0%~5%）",
+            "real_estate": "基本持平",
+            "commodities": "小幅上涨（0%~10%）"
+        }
+    },
+    "3. 收益期望与风险容忍度": {
+        "annual_return_target": "5%~8%",
+        "max_drawdown_tolerance": "5%以下",
+        "loss_tolerance_behaviour": "非常担忧，一旦亏损可能立即赎回"
+    },
+    "4. 投资策略偏好": {
+        "preferred_asset_allocation": {
+            "stocks_ratio": 20,
+            "bonds_ratio": 60,
+            "alternative_ratio": 10,
+            "other_ratio": 10
+        },
+        "esg_preference": "略有兴趣，但需要更多信息",
+        "common_investment_tools": [
+            "公募基金",
+            "债券/债券型基金"
+        ]
+    },
+    "5. 对当前及潜在风险事件的关注度": {
+        "main_concerns": [
+            "地缘政治风险",
+            "行业监管政策调整"
+        ],
+        "risk_occurrence_probability": [
+            {
+                "risk_event": "地缘政治风险",
+                "short_term_probability": "高",
+                "mid_term_probability": "中"
+            },
+            {
+                "risk_event": "科技股泡沫",
+                "short_term_probability": "中",
+                "mid_term_probability": "低"
+            }
+        ]
+    },
+    "6. 其他补充说明": "希望能够获得更多有关低波动投资组合的建议。"
+}

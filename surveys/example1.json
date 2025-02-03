@@ -1,0 +1,63 @@
+{
+    "investor_basic_info": {
+      "age": 35,
+      "occupation_or_income_source": "软件工程师",
+      "annual_income_range": "100万 ~ 300万人民币",
+      "liquidity_need": "中",
+      "liquidity_need_detail": "可能在 6~12 个月内有资金需求",
+      "investment_horizon": "3 ~ 5 年",
+      "risk_preference": "平衡型"
+    },
+    "market_sentiment": {
+      "economic_outlook_6_12_months": "偏乐观",
+      "economic_outlook_reason": "预计宏观政策相对宽松",
+      "interest_rate_expectation": "小幅上升",
+      "interest_rate_reason": "通胀压力仍存在",
+      "inflation_expectation": "小幅上升",
+      "inflation_reason": "能源价格和消费需求反弹",
+      "asset_class_expectations": {
+        "stocks": "小幅上涨（0%~10%）",
+        "bonds": "基本持平",
+        "real_estate": "小幅调整",
+        "commodities": "小幅上涨（0%~10%）"
+      }
+    },
+    "return_and_risk": {
+      "annual_return_target": "8% ~ 12%",
+      "max_drawdown_tolerance": "10% ~ 15%",
+      "loss_tolerance_behaviour": "理性看待亏损，接受短期波动"
+    },
+    "investment_preference": {
+      "preferred_asset_allocation": {
+        "stocks_ratio": 50,
+        "bonds_ratio": 30,
+        "alternative_ratio": 15,
+        "other_ratio": 5
+      },
+      "esg_preference": "略有兴趣，但需要更多信息",
+      "common_investment_tools": [
+        "公募基金",
+        "股票现货/ETF"
+      ]
+    },
+    "risk_events": {
+      "main_concerns": [
+        "地缘政治风险",
+        "科技股泡沫/金融市场泡沫"
+      ],
+      "risk_occurrence_probability": [
+        {
+          "risk_event": "地缘政治风险",
+          "short_term_probability": "中",
+          "mid_term_probability": "高"
+        },
+        {
+          "risk_event": "科技股泡沫",
+          "short_term_probability": "低",
+          "mid_term_probability": "中"
+        }
+      ]
+    },
+    "additional_notes": "希望获得跨境投资方面的专业建议"
+  }
+  

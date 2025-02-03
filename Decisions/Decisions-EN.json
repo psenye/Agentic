@@ -1,0 +1,45 @@
+{
+    "Investment Decisions": [
+      {
+        "category": "Risk Preference & Market Sentiment",
+        "decisions": [
+          {"id": 1, "question": "Is the current market sentiment risk-averse? (If so, increase low-risk assets)"},
+          {"id": 2, "question": "Should we increase the proportion of fixed-income assets (bonds, cash) in the portfolio?"},
+          {"id": 3, "question": "Is the market sentiment suitable for increasing allocations to stocks or high-yield assets?"},
+          {"id": 4, "question": "Should we adjust the proportion of safe-haven assets (gold, cash) to mitigate market uncertainty?"},
+          {"id": 5, "question": "Has the investor's tolerance for short-term market fluctuations changed?"}
+        ]
+      },
+      {
+        "category": "Return Expectations & Portfolio Optimization",
+        "decisions": [
+          {"id": 6, "question": "Should we reduce the overall volatility of the investment portfolio?"},
+          {"id": 7, "question": "Should we increase the weight of growth stocks to match the investor’s return expectations?"},
+          {"id": 8, "question": "Is it suitable to allocate a higher proportion to cyclical industry assets in the current market environment?"},
+          {"id": 9, "question": "Should we reduce cash holdings and increase yield-generating assets in a low-interest-rate environment?"},
+          {"id": 10, "question": "Do investor expectations for long-term returns align with actual market performance? Should investment strategies be adjusted?"}
+        ]
+      },
+      {
+        "category": "Asset Allocation Adjustments",
+        "decisions": [
+          {"id": 11, "question": "Should we rebalance the investment portfolio to ensure it aligns with investment goals and risk tolerance?"},
+          {"id": 12, "question": "Should we reduce exposure to a single asset class (e.g., REITs) to mitigate risk?"},
+          {"id": 13, "question": "Should we increase investments in emerging markets or specific industries (e.g., tech, healthcare)?"},
+          {"id": 14, "question": "Should we employ hedging strategies to reduce investment portfolio risk during market volatility?"},
+          {"id": 15, "question": "Should we adjust the allocation of overseas assets to minimize currency risk?"}
+        ]
+      },
+      {
+        "category": "Personalized Investment Advice",
+        "decisions": [
+          {"id": 16, "question": "Should we adjust the asset allocation strategy based on the investor’s age, income, and investment experience?"},
+          {"id": 17, "question": "Should we recommend conservative investment products (e.g., index funds, bond ETFs) to match the investor’s risk tolerance?"},
+          {"id": 18, "question": "Should we optimize tax strategies, such as adjusting tax-deferred accounts (IRA/401k) or capital gains tax management?"},
+          {"id": 19, "question": "Should the investor employ leverage strategies to enhance returns, or should leverage risk be reduced?"},
+          {"id": 20, "question": "Should we provide periodic investment portfolio health checks and adjust asset weightings accordingly?"}
+        ]
+      }
+    ]
+  }
+  

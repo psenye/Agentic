@@ -1,0 +1,66 @@
+{
+    "1. 投资者基本信息": {
+        "age": 40,
+        "occupation_or_income_source": "私企老板",
+        "annual_income_range": "300万以上",
+        "liquidity_need": "高（随时需要较高流动性）",
+        "investment_horizon": "1-3年",
+        "risk_preference": "激进型"
+    },
+    "2. 市场情绪及预期": {
+        "economic_outlook_6_12_months": "偏乐观",
+        "economic_outlook_reason": "全球经济复苏迹象明显，消费需求有望持续增长。",
+        "interest_rate_expectation": "小幅上升",
+        "interest_rate_reason": "央行政策趋紧，防范通胀高企。",
+        "inflation_expectation": "小幅上升",
+        "inflation_reason": "能源价格上行和劳动力成本上涨。",
+        "asset_class_expectations": {
+            "stocks": "小幅上涨（0%~10%）",
+            "bonds": "小幅下跌（0%~5%）",
+            "real_estate": "稳定上涨",
+            "commodities": "小幅上涨（0%~10%）"
+        }
+    },
+    "3. 收益期望与风险容忍度": {
+        "annual_return_target": "15%以上",
+        "max_drawdown_tolerance": "20%以上",
+        "loss_tolerance_behaviour": "理性看待亏损，接受短期波动"
+    },
+    "4. 投资策略偏好": {
+        "preferred_asset_allocation": {
+            "stocks_ratio": 70,
+            "bonds_ratio": 10,
+            "alternative_ratio": 15,
+            "other_ratio": 5
+        },
+        "esg_preference": "略有兴趣，但需要更多信息",
+        "common_investment_tools": [
+            "公募基金",
+            "股票现货/ETF",
+            "私募基金",
+            "期货/期权"
+        ]
+    },
+    "5. 对当前及潜在风险事件的关注度": {
+        "main_concerns": [
+            "地缘政治风险",
+            "科技股泡沫/金融市场泡沫",
+            "汇率风险"
+        ],
+        "risk_occurrence_probability": [
+            {
+                "risk_event": "地缘政治风险",
+                "short_term_probability": "中",
+                "mid_term_probability": "高"
+            },
+            {
+                "risk_event": "科技股泡沫",
+                "short_term_probability": "中",
+                "mid_term_probability": "中"
+            }
+        ]
+    },
+    "6. 其他补充说明": {
+        "additional_notes": "希望获取更多关于新兴市场投资的机会分析。"
+    }
+}

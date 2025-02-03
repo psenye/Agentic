@@ -1,0 +1,65 @@
+{
+    "1. 投资者基本信息": {
+        "age": 35,
+        "occupation_or_income_source": "销售经理",
+        "annual_income_range": "100万-300万",
+        "liquidity_need": "中（6~12 个月内需要资金）",
+        "investment_horizon": ">5年",
+        "risk_preference": "平衡型"
+    },
+    "2. 市场情绪及预期": {
+        "economic_outlook_6_12_months": "偏乐观",
+        "economic_outlook_reason": "经济刺激政策可能促进增长，企业盈利恢复预期较强。",
+        "interest_rate_expectation": "小幅上涨",
+        "interest_rate_reason": "近期通胀压力逐渐显现，货币政策可能有所收紧。",
+        "inflation_expectation": "小幅上升",
+        "inflation_reason": "供需结构仍未完全恢复，能源价格较高。",
+        "asset_class_expectations": {
+            "stocks": "小幅上涨（0%~10%）",
+            "bonds": "小幅下跌（0%~5%）",
+            "real_estate": "稳定上涨",
+            "commodities": "小幅上涨（0%~10%）"
+        }
+    },
+    "3. 收益期望与风险容忍度": {
+        "annual_return_target": "8%~12%",
+        "max_drawdown_tolerance": "10%~15%",
+        "loss_tolerance_behaviour": "会根据市场走势再观望一段时间"
+    },
+    "4. 投资策略偏好": {
+        "preferred_asset_allocation": {
+            "stocks_ratio": 50,
+            "bonds_ratio": 30,
+            "alternative_ratio": 15,
+            "other_ratio": 5
+        },
+        "esg_preference": "略有兴趣，但需要更多信息",
+        "common_investment_tools": [
+            "公募基金",
+            "股票现货/ETF",
+            "债券/债券型基金"
+        ]
+    },
+    "5. 对当前及潜在风险事件的关注度": {
+        "main_concerns": [
+            "地缘政治风险",
+            "能源价格波动",
+            "行业监管政策调整"
+        ],
+        "risk_occurrence_probability": [
+            {
+                "risk_event": "地缘政治风险",
+                "short_term_probability": "高",
+                "mid_term_probability": "中"
+            },
+            {
+                "risk_event": "科技股泡沫",
+                "short_term_probability": "中",
+                "mid_term_probability": "低"
+            }
+        ]
+    },
+    "6. 其他补充说明": {
+        "additional_notes": "对长期投资的稳定性有一定关注，希望在波动性较低的资产中分散风险。"
+    }
+}

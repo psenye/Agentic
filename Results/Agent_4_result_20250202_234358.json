@@ -1,0 +1,53 @@
+{
+    "age": 30,
+    "occupation_or_income_source": "医生",
+    "annual_income_range": "100万-300万",
+    "liquidity_need": "中（6~12 个月内需要资金）",
+    "investment_horizon": "3-5年",
+    "risk_preference": "平衡型",
+    "economic_outlook_6_12_months": "中性",
+    "economic_outlook_reason": "全球经济复苏速度尚不明朗，部分区域增长缓慢。",
+    "interest_rate_expectation": "小幅上升",
+    "interest_rate_reason": "主要经济体的通胀压力可能促使加息。",
+    "inflation_expectation": "小幅上升",
+    "inflation_reason": "能源和食品价格持续上涨，带来通胀压力。",
+    "asset_class_expectations": {
+        "stocks": "小幅上涨（0%~10%）",
+        "bonds": "小幅下跌（0%~5%）",
+        "real_estate": "基本持平",
+        "commodities": "小幅上涨（0%~10%）"
+    },
+    "annual_return_target": "8%~12%",
+    "max_drawdown_tolerance": "10%~15%",
+    "loss_tolerance_behaviour": "会根据市场走势再观望一段时间",
+    "preferred_asset_allocation": {
+        "stocks_ratio": 50,
+        "bonds_ratio": 30,
+        "alternative_ratio": 15,
+        "other_ratio": 5
+    },
+    "esg_preference": "略有兴趣，但需要更多信息",
+    "common_investment_tools": [
+        "公募基金",
+        "股票现货/ETF",
+        "债券/债券型基金"
+    ],
+    "main_concerns": [
+        "地缘政治风险",
+        "能源价格波动",
+        "科技股泡沫/金融市场泡沫"
+    ],
+    "risk_occurrence_probability": [
+        {
+            "risk_event": "地缘政治风险",
+            "short_term_probability": "高",
+            "mid_term_probability": "中"
+        },
+        {
+            "risk_event": "科技股泡沫",
+            "short_term_probability": "中",
+            "mid_term_probability": "中"
+        }
+    ],
+    "additional_notes": "关注政策变动是否会对医疗行业投资产生影响。"
+}

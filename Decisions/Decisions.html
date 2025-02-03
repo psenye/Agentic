@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投资决策</title>
+    <script>
+        const data = {
+            "zh": {
+                "title": "投资决策",
+                "button": "切换到英文",
+                "categories": [
+                    {"category": "风险偏好与市场情绪判断", "decisions": [
+                        "当前市场情绪是否偏向风险规避？（如果市场情绪保守，应增加低风险资产）",
+                        "是否应提高固定收益类资产（债券、现金）在投资组合中的比重？",
+                        "当前市场情绪是否适合增加股票或高收益资产的配置？",
+                        "是否应该调整避险资产（如黄金、现金）的占比，以应对市场不确定性？",
+                        "投资者对于短期市场波动的承受能力是否发生变化？"
+                    ]},
+                    {"category": "收益预期与投资组合优化", "decisions": [
+                        "是否需要降低整体投资组合的波动率？",
+                        "是否需要增加成长型股票的权重，以符合投资者的收益预期？",
+                        "当前的市场环境下，是否适合配置更高比例的周期性行业资产？",
+                        "在低利率环境下，是否应减少现金持有比例并增加收益性资产？",
+                        "投资者对长期收益预期是否与实际市场表现一致？是否需要调整投资策略？"
+                    ]},
+                    {"category": "资产配置调整", "decisions": [
+                        "是否需要对投资组合进行再平衡，以确保符合投资目标和风险容忍度？",
+                        "是否应减少单一资产类别（如房地产投资信托基金，REITs）的风险暴露？",
+                        "是否需要增加对新兴市场或特定行业（如科技、医疗）的投资？",
+                        "在市场剧烈波动时，是否需要采用对冲策略来降低投资组合风险？",
+                        "是否需要调整海外资产的配置比例，以降低汇率风险？"
+                    ]},
+                    {"category": "个性化投资建议", "decisions": [
+                        "是否需要根据投资者年龄、收入、投资经验等调整资产配置方案？",
+                        "是否需要推荐稳健型投资产品（如指数基金、债券ETF）以匹配投资者的风险承受能力？",
+                        "是否需要优化税收策略，如调整税收递延账户（IRA/401k）或优化资本利得税？",
+                        "投资者是否适合采用杠杆策略来提升收益，还是应当降低杠杆风险？",
+                        "是否需要为投资者提供定期的投资组合健康检查，并调整资产权重？"
+                    ]}
+                ]
+            },
+            "en": {
+                "title": "Investment Decisions",
+                "button": "Switch to Chinese",
+                "categories": [
+                    {"category": "Risk Preference & Market Sentiment", "decisions": [
+                        "Is the current market sentiment risk-averse? (If so, increase low-risk assets)",
+                        "Should we increase the proportion of fixed-income assets (bonds, cash) in the portfolio?",
+                        "Is the market sentiment suitable for increasing allocations to stocks or high-yield assets?",
+                        "Should we adjust the proportion of safe-haven assets (gold, cash) to mitigate market uncertainty?",
+                        "Has the investor's tolerance for short-term market fluctuations changed?"
+                    ]},
+                    {"category": "Return Expectations & Portfolio Optimization", "decisions": [
+                        "Should we reduce the overall volatility of the investment portfolio?",
+                        "Should we increase the weight of growth stocks to match the investor’s return expectations?",
+                        "Is it suitable to allocate a higher proportion to cyclical industry assets in the current market environment?",
+                        "Should we reduce cash holdings and increase yield-generating assets in a low-interest-rate environment?",
+                        "Do investor expectations for long-term returns align with actual market performance? Should investment strategies be adjusted?"
+                    ]},
+                    {"category": "Asset Allocation Adjustments", "decisions": [
+                        "Should we rebalance the investment portfolio to ensure it aligns with investment goals and risk tolerance?",
+                        "Should we reduce exposure to a single asset class (e.g., REITs) to mitigate risk?",
+                        "Should we increase investments in emerging markets or specific industries (e.g., tech, healthcare)?",
+                        "Should we employ hedging strategies to reduce investment portfolio risk during market volatility?",
+                        "Should we adjust the allocation of overseas assets to minimize currency risk?"
+                    ]},
+                    {"category": "Personalized Investment Advice", "decisions": [
+                        "Should we adjust the asset allocation strategy based on the investor’s age, income, and investment experience?",
+                        "Should we recommend conservative investment products (e.g., index funds, bond ETFs) to match the investor’s risk tolerance?",
+                        "Should we optimize tax strategies, such as adjusting tax-deferred accounts (IRA/401k) or capital gains tax management?",
+                        "Should the investor employ leverage strategies to enhance returns, or should leverage risk be reduced?",
+                        "Should we provide periodic investment portfolio health checks and adjust asset weightings accordingly?"
+                    ]}
+                ]
+            }
+        };
+        
+        let currentLang = "zh";
+        
+        function toggleLanguage() {
+            currentLang = currentLang === "zh" ? "en" : "zh";
+            renderPage();
+        }
+        
+        function renderPage() {
+            document.getElementById("title").innerText = data[currentLang].title;
+            document.getElementById("toggleButton").innerText = data[currentLang].button;
+            const categoriesDiv = document.getElementById("categories");
+            categoriesDiv.innerHTML = "";
+            data[currentLang].categories.forEach(cat => {
+                let section = document.createElement("div");
+                let heading = document.createElement("h2");
+                heading.innerText = cat.category;
+                section.appendChild(heading);
+                let ul = document.createElement("ul");
+                cat.decisions.forEach(decision => {
+                    let li = document.createElement("li");
+                    li.innerText = decision;
+                    ul.appendChild(li);
+                });
+                section.appendChild(ul);
+                categoriesDiv.appendChild(section);
+            });
+        }
+        
+        window.onload = renderPage;
+    </script>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <button id="toggleButton" onclick="toggleLanguage()"></button>
+    <div id="categories"></div>
+</body>
+</html>

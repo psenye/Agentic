@@ -1,0 +1,63 @@
+{
+    "investment_profile": {
+        "age": 27,
+        "occupation_or_income_source": "短视频博主",
+        "annual_income_range": "50万-100万",
+        "liquidity_need": "中（6~12 个月内需要资金）",
+        "investment_horizon": "3-5年",
+        "risk_preference": "平衡型"
+    },
+    "market_sentiment_and_expectations": {
+        "economic_outlook_6_12_months": "偏乐观",
+        "economic_outlook_reason": "数字化经济和消费复苏带动增长。",
+        "interest_rate_expectation": "小幅上升",
+        "interest_rate_reason": "全球央行紧缩政策可能会持续。",
+        "inflation_expectation": "小幅下降",
+        "inflation_reason": "供应链改善，能源价格趋稳。",
+        "asset_class_expectations": {
+            "stocks": "小幅上涨（0%~10%）",
+            "bonds": "基本持平",
+            "real_estate": "小幅调整",
+            "commodities": "小幅上涨（0%~10%）"
+        }
+    },
+    "return_and_risk_tolerance": {
+        "annual_return_target": "8%~12%",
+        "max_drawdown_tolerance": "10%~15%",
+        "loss_tolerance_behaviour": "会根据市场走势再观望一段时间"
+    },
+    "investment_preferences": {
+        "preferred_asset_allocation": {
+            "stocks_ratio": 50,
+            "bonds_ratio": 30,
+            "alternative_ratio": 15,
+            "other_ratio": 5
+        },
+        "esg_preference": "略有兴趣，但需要更多信息",
+        "common_investment_tools": [
+            "公募基金",
+            "股票现货/ETF",
+            "债券/债券型基金"
+        ]
+    },
+    "risk_concerns": {
+        "main_concerns": [
+            "科技股泡沫/金融市场泡沫",
+            "地缘政治风险",
+            "能源价格波动"
+        ],
+        "risk_occurrence_probability": [
+            {
+                "risk_event": "地缘政治风险",
+                "short_term_probability": "高",
+                "mid_term_probability": "中"
+            },
+            {
+                "risk_event": "科技股泡沫",
+                "short_term_probability": "中",
+                "mid_term_probability": "中"
+            }
+        ]
+    },
+    "additional_notes": "保持多元化投资，关注市场动态。"
+}

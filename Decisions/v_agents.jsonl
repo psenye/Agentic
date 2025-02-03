@@ -1,0 +1,10 @@
+{"age": 28, "occupation_or_income_source": "软件工程师", "annual_income_range": "50万-100万", "liquidity_need": "低（无紧急用款需求）", "investment_horizon": "3-5年", "risk_preference": "保守型"}
+{"age": 35, "occupation_or_income_source": "销售经理", "annual_income_range": "100万-300万", "liquidity_need": "中（6~12 个月内需要资金）", "investment_horizon": ">5年", "risk_preference": "平衡型"}
+{"age": 22, "occupation_or_income_source": "自由设计师", "annual_income_range": "50万以下", "liquidity_need": "高（随时需要较高流动性）", "investment_horizon": "<1年", "risk_preference": "激进型"}
+{"age": 46, "occupation_or_income_source": "公务员", "annual_income_range": "50万-100万", "liquidity_need": "低（无紧急用款需求）", "investment_horizon": "1-3年", "risk_preference": "保守型"}
+{"age": 30, "occupation_or_income_source": "医生", "annual_income_range": "100万-300万", "liquidity_need": "中（6~12 个月内需要资金）", "investment_horizon": "3-5年", "risk_preference": "平衡型"}
+{"age": 56, "occupation_or_income_source": "退休金 + 投资收益", "annual_income_range": "50万以下", "liquidity_need": "低（无紧急用款需求）", "investment_horizon": ">5年", "risk_preference": "保守型"}
+{"age": 40, "occupation_or_income_source": "私企老板", "annual_income_range": "300万以上", "liquidity_need": "高（随时需要较高流动性）", "investment_horizon": "1-3年", "risk_preference": "激进型"}
+{"age": 27, "occupation_or_income_source": "短视频博主", "annual_income_range": "50万-100万", "liquidity_need": "中（6~12 个月内需要资金）", "investment_horizon": "3-5年", "risk_preference": "平衡型"}
+{"age": 60, "occupation_or_income_source": "国企顾问", "annual_income_range": "100万-300万", "liquidity_need": "低（无紧急用款需求）", "investment_horizon": ">5年", "risk_preference": "保守型"}
+{"age": 33, "occupation_or_income_source": "金融分析师", "annual_income_range": "300万以上", "liquidity_need": "高（随时需要较高流动性）", "investment_horizon": "<1年", "risk_preference": "激进型"}

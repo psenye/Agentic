@@ -1,0 +1,125 @@
+{
+    "Investment Decisions": [
+      {
+        "Decision ID": 1,
+        "Decision Question": "Is the current market sentiment risk-averse? (If the market sentiment is conservative, increase low-risk assets)",
+        "Recommendation": "No, the market sentiment is generally optimistic, and it may be appropriate to moderately increase allocations to high-yield assets.",
+        "Clear Answer": "No"
+      },
+      {
+        "Decision ID": 2,
+        "Decision Question": "Should we increase the proportion of fixed-income assets (bonds, cash) in the portfolio?",
+        "Recommendation": "Yes, the current bond allocation is low, and it can be increased to enhance stability.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 3,
+        "Decision Question": "Is the current market sentiment suitable for increasing allocations to stocks or high-yield assets?",
+        "Recommendation": "Yes, the market is generally optimistic, and it is advisable to increase allocations to stocks or high-yield assets.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 4,
+        "Decision Question": "Should we adjust the proportion of safe-haven assets (such as gold or cash) to mitigate market uncertainty?",
+        "Recommendation": "No, inflationary pressure is not significant, and safe-haven assets can be maintained at their current levels.",
+        "Clear Answer": "No"
+      },
+      {
+        "Decision ID": 5,
+        "Decision Question": "Has the investor's tolerance for short-term market fluctuations changed?",
+        "Recommendation": "No, most investors can accept short-term market fluctuations without needing special adjustments.",
+        "Clear Answer": "No"
+      },
+      {
+        "Decision ID": 6,
+        "Decision Question": "Should we reduce the overall volatility of the investment portfolio?",
+        "Recommendation": "No, most investors are willing to accept higher volatility.",
+        "Clear Answer": "No"
+      },
+      {
+        "Decision ID": 7,
+        "Decision Question": "Should we increase the weight of growth stocks to match the investor's return expectations?",
+        "Recommendation": "No, the current investors have moderate return expectations, and it is not advisable to significantly increase growth stock allocations.",
+        "Clear Answer": "No"
+      },
+      {
+        "Decision ID": 8,
+        "Decision Question": "Is it suitable to allocate a higher proportion to cyclical industry assets in the current market environment?",
+        "Recommendation": "Yes, the market outlook is optimistic, and it may be appropriate to increase allocations to cyclical industry assets.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 9,
+        "Decision Question": "In a low-interest-rate environment, should we reduce cash holdings and increase yield-generating assets?",
+        "Recommendation": "Yes, in a low-interest-rate environment, it is advisable to reduce cash holdings and increase yield-generating assets.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 10,
+        "Decision Question": "Do investor expectations for long-term returns align with actual market performance? Should investment strategies be adjusted?",
+        "Recommendation": "Most investors' long-term return expectations are relatively stable, but strategies should still be regularly evaluated and adjusted.",
+        "Clear Answer": "Cautious, no recommendation"
+      },
+      {
+        "Decision ID": 11,
+        "Decision Question": "Should we rebalance the investment portfolio to ensure it aligns with investment goals and risk tolerance?",
+        "Recommendation": "No, the current asset allocation is relatively balanced, and no adjustments are needed.",
+        "Clear Answer": "No"
+      },
+      {
+        "Decision ID": 12,
+        "Decision Question": "Should we reduce exposure to a single asset class (e.g., REITs) to mitigate risk?",
+        "Recommendation": "It is advisable to diversify investments and reduce exposure to a single asset class.",
+        "Clear Answer": "Cautious, no recommendation"
+      },
+      {
+        "Decision ID": 13,
+        "Decision Question": "Should we increase investments in emerging markets or specific industries (such as technology or healthcare)?",
+        "Recommendation": "Yes, the market outlook is optimistic, and it may be appropriate to increase investments in emerging markets or specific industries.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 14,
+        "Decision Question": "Should we employ hedging strategies to reduce investment portfolio risk during market volatility?",
+        "Recommendation": "Yes, there are geopolitical risks, and it is advisable to employ hedging strategies to reduce portfolio risk.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 15,
+        "Decision Question": "Should we adjust the allocation of overseas assets to minimize currency risk?",
+        "Recommendation": "No, the foreign exchange market is stable, and no adjustments are needed.",
+        "Clear Answer": "No"
+      },
+      {
+        "Decision ID": 16,
+        "Decision Question": "Should we adjust the asset allocation strategy based on the investor's age, income, and investment experience?",
+        "Recommendation": "Yes, there are significant differences in investor age and income, and it is advisable to optimize asset allocation based on individual circumstances.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 17,
+        "Decision Question": "Should we recommend conservative investment products (such as index funds, bond ETFs) to match the investor’s risk tolerance?",
+        "Recommendation": "Yes, investors prefer bond funds, and conservative products are recommended.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 18,
+        "Decision Question": "Should we optimize tax strategies, such as adjusting tax-deferred accounts (IRA/401k) or capital gains tax management?",
+        "Recommendation": "Yes, especially for high-income investors, tax strategies can be optimized to reduce investment costs.",
+        "Clear Answer": "Yes"
+      },
+      {
+        "Decision ID": 19,
+        "Decision Question": "Is the investor suitable for using leverage to enhance returns, or should leverage risk be reduced?",
+        "Recommendation": "It is advisable to use leverage cautiously and ensure it matches the investor's risk tolerance.",
+        "Clear Answer": "Cautious, no recommendation"
+      },
+      {
+        "Decision ID": 20,
+        "Decision Question": "Should we provide periodic investment portfolio health checks and adjust asset weightings accordingly?",
+        "Recommendation": "Yes, periodic checks on the investment portfolio will help optimize long-term investment performance.",
+        "Clear Answer": "Yes"
+      }
+    ]
+  }
+  

@@ -1,0 +1,4 @@
+File Paths:
+Prompts/4o-test.prompty
+
+Response:

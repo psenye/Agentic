@@ -1,0 +1,63 @@
+{
+    "1. 投资者基本信息": {
+        "age": 56,
+        "occupation_or_income_source": "退休人员",
+        "annual_income_range": "50万以下",
+        "liquidity_need": "低（无紧急用款需求）",
+        "investment_horizon": ">5年",
+        "risk_preference": "保守型"
+    },
+    "2. 市场情绪及预期": {
+        "economic_outlook_6_12_months": "中性",
+        "economic_outlook_reason": "经济复苏缓慢，前景难以判断。",
+        "interest_rate_expectation": "持平",
+        "interest_rate_reason": "当前政策环境较为稳定，变动可能性较低。",
+        "inflation_expectation": "小幅上升",
+        "inflation_reason": "受能源价格波动和供需不平衡影响。",
+        "asset_class_expectations": {
+            "stocks": "基本持平",
+            "bonds": "小幅上涨（0%~5%）",
+            "real_estate": "小幅调整",
+            "commodities": "基本持平"
+        }
+    },
+    "3. 收益期望与风险容忍度": {
+        "annual_return_target": "5%~8%",
+        "max_drawdown_tolerance": "5%~10%",
+        "loss_tolerance_behaviour": "会根据市场走势再观望一段时间"
+    },
+    "4. 投资策略偏好": {
+        "preferred_asset_allocation": {
+            "stocks_ratio": 25,
+            "bonds_ratio": 60,
+            "alternative_ratio": 10,
+            "other_ratio": 5
+        },
+        "esg_preference": "略有兴趣，但需要更多信息",
+        "common_investment_tools": [
+            "公募基金",
+            "债券/债券型基金"
+        ]
+    },
+    "5. 对当前及潜在风险事件的关注度": {
+        "main_concerns": [
+            "地缘政治风险",
+            "能源价格波动"
+        ],
+        "risk_occurrence_probability": [
+            {
+                "risk_event": "地缘政治风险",
+                "short_term_probability": "中",
+                "mid_term_probability": "高"
+            },
+            {
+                "risk_event": "科技股泡沫",
+                "short_term_probability": "低",
+                "mid_term_probability": "中"
+            }
+        ]
+    },
+    "6. 其他补充说明": {
+        "additional_notes": "投资组合希望更注重稳健收益，同时适度关注ESG投资机会。"
+    }
+}
