@@ -26,14 +26,14 @@ The framework leverages **multiple agents** to perform tasks such as creating vi
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your-username/financial-decision-making.git
-   cd financial-decision-making
+   git clone https://github.com/psenye/Agentic.git
+   cd Agentic
    ```
 
 2. **Install dependencies**:
    Use pip to install required Python packages:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements_A.txt
    ```
 
 3. **Azure AI Foundry Configuration**:
